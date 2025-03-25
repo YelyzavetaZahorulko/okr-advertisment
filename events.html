@@ -6,21 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Оголошення про події</title>
 </head>
-<body>
+<body background="events-bg.jpg" text="black" link="blue" vlink="green" alink="red">
   <h1>Оголошення про події</h1>
   <p>Не пропустіть важливі події у вашому місті!</p>
+  <p><font color="purple" size="4"><b>Дізнайтесь про всі важливі події у вашому місті!</b></font></p>
 
-<ul>
-  <li><strong>Концерт Океан Ельзи</strong> - 25 березня, Київ.</li>
-  <li><strong>Ярмарок вакансій</strong> - 10 квітня, Львів.</li>
-</ul>
-
-<nav>
+  <h2>Наступні заходи:</h2>
   <ul>
-    <li><a href="index.html">Головна</a></li>
-    <li><a href="jobs.html">Робочі оголошення</a></li>
-    <li><a href="sales.html">Оголошення про продаж</a></li>
+      <li>Концерт - <a href="https://concert.ua/uk/kyiv">Придбати квитки</a></li>
+      <li>Виставка - <a href="https://concert.ua/uk/kyiv">Придбати квитки</a></li>
   </ul>
-</nav>
+  <p><a href="index.html">На головну</a></p>
+
+  <h2>Детальна інформація про заходи</h2>
+
+  <table border="1" cellspacing="8" cellpadding="10">
+      <colgroup>
+          <col span="2" style="background-color: #f0f0f0;"> <!-- Перші 2 стовпці з сірим фоном -->
+          <col style="background-color: #d0e0f0;"> <!-- Третій стовпець блакитний -->
+      </colgroup>
+      <tr bgcolor="#ADD8E6">
+          <th rowspan="2">Тип заходу</th>
+          <th colspan="2">Деталі</th>
+      </tr>
+      <tr bgcolor="#B0C4DE">
+          <th>Дата</th>
+          <th>Локація</th>
+      </tr>
+      <tr align="center">
+          <td rowspan="2"><b>Концерт</b></td>
+          <td>20 квітня</td>
+          <td>Палац Україна</td>
+      </tr>
+      <tr align="right">
+          <td colspan="2">Оновлено: <i>30 хвилин тому</i></td>
+      </tr>
+      <tr align="center">
+          <td rowspan="2"><b>Виставка</b></td>
+          <td>25 квітня</td>
+          <td>Мистецький Арсенал</td>
+      </tr>
+      <tr align="right">
+          <td colspan="2">Оновлено: <i>1 година тому</i></td>
+      </tr>
+  </table>
 </body>
 </html>
